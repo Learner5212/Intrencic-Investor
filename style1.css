@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding: 40px 100px;
+    z-index: 1000000;
+    background-color: #4ecca3;
+    
+    
+}
+header .sticky{
+    padding: 2px 100px;
+    background-color: #fff;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.7s;
+}
+header .sticky .logo {
+    color: #000;
+}
+header .sticky ul li a{
+    color: #000;
+}
+
+}
+.signin{
+    background: transparent;
+    border: none;
+   padding: 5px 10px;
+   border-radius: 25px;
+   font-size: larger;
+    color: #fff;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: 300;
+    text-decoration: solid;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.hidden{
+    display: none;
+    color: aqua;
+}
+.signin:hover{
+    background: #02569b;
+    color: white;
+    transform: scale(1.2);
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li:hover{
+    color:#4ecca3;
+    transform: scale(1.1);
+    
+    
+}
+
+ .img1{position: absolute;
+ left:4px;
+ top: 135px;
+ right:4px;
+ z-index: -1;
+   border-radius:50px;
+   border-radius:50px;
+ }
+
+*{background-color: #4ecca3 }
